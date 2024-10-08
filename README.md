@@ -36,8 +36,8 @@ A kapcsolási rajz ábrázolja a jelgenerátort a belső ellenállásával, vala
 
 | Paraméter           | Érték |
 |---------------------|-------|
-| Generátor jel       | 5.00 Vpk|
-| Kimeneti Jel        | 2.06 Vpk |
+| Generátor jel       | 5.00 Vp2p|
+| Kimeneti Jel        | 2.06 Vp2p |
 | Generátor Frekvencia| 1000 Hz |
 | Csillapítás         | -7.702 dB |
 | Átviteli Arány      | 7.702 dB |
