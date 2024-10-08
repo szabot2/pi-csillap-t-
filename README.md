@@ -22,6 +22,11 @@ Az érétkeket a következő képletekkel számoljuk ki:
 
 ![R2 képlete](https://raw.githubusercontent.com/szabot2/pi-csillapito/cffee4ced185268076fb4bf54fdfafc23a0b0f74/kepek/svgviewer-output(1).svg)
 
+
+6 dB-es csillapításra kiszámolt ellenállás értékek:
+
+
+<img src="https://raw.githubusercontent.com/szabot2/pi-csillapito/refs/heads/main/kepek/ql_41d4e91c270a0827beb0bb25f1c6a62a_l3.png">
 <br>
 
 A kapcsolási rajz ábrázolja a jelgenerátort a belső ellenállásával, valamint a Pi csillapítót a kiszámolt ellenállás értékekkel:
@@ -31,8 +36,8 @@ A kapcsolási rajz ábrázolja a jelgenerátort a belső ellenállásával, vala
 
 | Paraméter           | Érték |
 |---------------------|-------|
-| Generátor jel       | 5.00 Vpp |
-| Kimeneti Jel        | 2.06 Vpp |
+| Generátor jel       | 5.00 Vpk|
+| Kimeneti Jel        | 2.06 Vpk |
 | Generátor Frekvencia| 1000 Hz |
 | Csillapítás         | -7.702 dB |
 | Átviteli Arány      | 7.702 dB |
@@ -55,7 +60,7 @@ Látható az oszcilloszkópon a sárga 1-es csatornán a csillapított kimeneti 
 - **Kimeneti/Bemeneti impedancia**: ??????.  
 
 ### 5. **Elemzés**
-A pi csillapító (pi pad) ellenállás áramkörének elemzése során megfigyelhető, hogy a tervezett áramkör hatékonyan csökkenti a jel amplitúdóját, miközben megőrzi a jel formáját. Az áramkör négy fő komponensből áll: három ellenállásból és egy terhelő ellenállásból.
+A pi csillapító (pi pad) ellenállás áramkörének elemzése során megfigyelhető, hogy a tervezett áramkör hatékonyan csökkenti a jel amplitúdóját, miközben megőrzi a jel formáját. Az áramkör négy fő komponensből áll: három ellenállásból és egy terhelő ellenállásból. Kisebb eltérés tapasztalható a kiszámolt értékek és a valós értékek között.
 
 ### 6. **Következtetések**
 A pi csillapító áramkör sikeresen megvalósult, és a tesztelési eredmények azt mutatják, hogy a csillapítási teljesítmény megfelel a tervezett specifikációknak. A mérések alapján a csillapító hatás a kívánt frekvenciatartományban optimális, és a jelminőség megőrzése is megfelelő. A projekt során szerzett tapasztalatok alapján a tervezési folyamat során figyelembe kell venni a komponensek toleranciáját és a környezeti hatásokat, mivel ezek befolyásolhatják az áramkör teljesítményét.
